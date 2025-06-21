@@ -1,3 +1,8 @@
+*{@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+    font-family: Mulish, sans-serif;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +44,7 @@ nav ul li a:hover {
 
 
 .header-text {
-    margin: 60px;
+    margin: 30px 35px;
     font-size: 18px;
 }
 
@@ -323,35 +328,46 @@ footer {
     margin-bottom: 10px;
 }
 
-.header-body {
-    flex-direction: column;
-    margin-top: -77px;
-}
-.header-text {
-    text-align: left;
-    margin-left: -50px;
-}
-.header-text h1 {
-    font-size: 25px;
-}
-.header-text p {
-    font-size: 18px;
-}
-br {
+.header-body br {
     display: none;
 }
+.header-body {
+    flex-direction: column;
+    margin-top: -10px;
+}
+.header-text {
+   margin:0 -4px;
+}
+.header-text h1 {
+    text-align: left;
+    margin-left: -43px;
+    font-size: 20px;
+}
+.header-text p {    
+    font-size: 15px;
+    text-align: left;
+    margin: 10px -42px;
+}
+
 .header-text button {
-    width: 150%;
-    padding: 20px 30px;
+    width: 100%;
+    padding: 20px 10px;
 }
 .illustration img {
     width: 300px;
-    margin-left: -65px;
+    margin-left: -38px;
+    margin-top: 13px;
+ 
 }
+
+/* service section */
+
 .service-content1, .service-content2 {
     flex-direction: column;
-    margin-left: 40px;
+    margin: 40px;
+    width: 100%;
 }
+
 .service-section button {
     margin-left: 7px;
     width: 100%;
@@ -359,58 +375,73 @@ br {
 .section2 {
     flex-direction: column;
 }
+.section2 br {
+    display: none;
+}
 .service2-img img {
     width: 300px;
-    margin-left: -33px;
-    margin-top: 20px;
+    margin-left: -38px;
+    margin-top: 10px;
 }
 .service2-text h1 {
-    text-align: left;
-    margin-left: -54px;
+    text-align: center;
     font-size: 20px;
+    margin-top: 30px;
+}
+.service2-text p {
+    text-align: center;
+    margin: 0 -55px;
+    font-size: 17px;
 }
 .service2-text {
     margin: 0;
 }
-.service2-text img {
-    margin-left: -52px;
-}
-br {
-    display: none;
-}
-.service2-text p {
-    text-align: left;
-    margin-left: -49px;
-    font-size: 17px;
-    width: 100%;
-}
+
 .learn-button {
     width: 100%;
     padding: 25px 60px;
+    margin-top: 10px;
 }
+
+/* download section */
 
 .downloads {
     flex-direction: column;
     margin-top: -75px;
 }
+br {
+    display: none;
+}
 .download-text h1 {
-    text-align: left;
-    margin-left: -55px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 50px;
+}
+.download-text img {
+    margin-left: 70px;
+    margin-top: 5px;
 }
 .download-text p {
-    text-align: left;
-    margin-left: -65px;
+    text-align: center;
+    margin: 0 -55px;
+    font-size: 17px;
 }
 .download-text button {
-    width: 170%;
-    padding: 20px 40px;
+    width: 180%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: -60px;
+}
+.vector-btn img {
+    margin: -3px 10px;
 }
 .download-img img {
     width: 300px;
+    margin-left: -38px;
     margin-top: 10px;
-    margin-left: -65px;
 }
+/* testimonial section */
+
 .testimonial-section {
     text-align: center;
 }
@@ -419,7 +450,7 @@ br {
 }
 .testimonials {
     flex-direction: column;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 .content-header {
     flex-direction: column;
